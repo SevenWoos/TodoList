@@ -8,19 +8,22 @@
   <body>
     <p>Todo List</p>
 
-    <input placeholder="Todo Name" 
-      class="js_name_input">
+    <div class="todo_input_grid">
+      <input placeholder="Todo Name" 
+        class="js_name_input name_input">
 
-    <input type="date" 
-      class="js_due_date_input">
+      <input type="date" 
+        class="js_due_date_input due_date_input">
 
-    <button onclick="
-      add_todo();
-    ">
-      Add
-    </button>
+      <button onclick="
+        add_todo();
+      " class="add_todo_button">
+        Add
+      </button>
+    </div>
 
-    <div class="js_todo_list">
+
+    <div class="js_todo_list todo_grid">
 
     </div>
 

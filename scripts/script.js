@@ -20,15 +20,16 @@ function render_todo_list() {
     const { name, due_date } = todo_object;
 
     const html = `
-      <p>
-      ${name} ${due_date}
+      <div>${name}</div>
+
+      <div>${due_date}</div>
+
       <button onclick="
         todo_list.splice(${i}, 1);
         render_todo_list();
-      ">
+      " class="delete_todo_button">
       Delete
       </button>
-      </p>
     `;
     todo_list_html += html;
   }
