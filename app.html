@@ -2,11 +2,27 @@
 <html>
   <head>
     <title>Todo List</title>
-
     <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body>
+    <p>Todo List</p>
+
+    <input placeholder="Todo Name" 
+      class="js_name_input">
+
+    <input type="date" 
+      class="js_due_date_input">
+
+    <button onclick="
+      add_todo();
+    ">
+      Add
+    </button>
+
+    <div class="js_todo_list">
+
+    </div>
 
     <script src="scripts/script.js"></script>
   </body>
