@@ -1,11 +1,11 @@
 const todo_list = [
   {
   name: 'make dinner', 
-  due_date: '2022-12-12'
+  due_date: '2025-07-31'
 }, 
   {
   name: 'wash dishes', 
-  due_date: '2022-12-22'
+  due_date: '2025-07-31'
   }
 ];
 
